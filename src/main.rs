@@ -2,6 +2,8 @@
 
 #[macro_use] extern crate rocket;
 
+mod domain;
+
 #[get("/")]
 fn index() -> &'static str {
     "Hello, world!"
